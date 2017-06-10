@@ -1,2 +1,3 @@
-#Go module to scrape google
-[![Build Status](https://travis-ci.org/RobertChristopher/go-google.svg?branch=master)](https://travis-ci.org/RobertChristopher/go-google)
+`Google` Search CLI base on [RobertChristopher/go-google](https://github.com/RobertChristopher/go-google)
+
+Use ENV `https_proxy` for proxy
