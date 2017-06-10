@@ -11,18 +11,18 @@ import (
 func main() {
 	if len(os.Args) > 1 {
 		q := strings.Join(os.Args[1:], " ")
-		fmt.Println("Go Searching %s", q)
+		fmt.Println("Go Searching :", q)
 
 		client := gosearch.NewClient()
 		fmt.Print(client.FormatURL(q, 20, 0))
 		if os.Getenv("https_proxy") != "" {
-			fmt.Print("https proxy used")
+			fmt.Println("https proxy used")
 			client.SetProxy(os.Getenv("https_proxy"))
 		}
 
 		googleResponse, err := client.Search(q)
 		if err != nil {
-			fmt.Println(err)
+			fmt.Println("error: ", err)
 		}
 		for _, result := range googleResponse {
 			fmt.Println()

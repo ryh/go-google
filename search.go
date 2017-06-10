@@ -5,7 +5,7 @@ package gosearch
 //
 var Defaults = Config{
 	TLD:           "com",   // google.COM
-	Lang:          "zh-CN", // in Chinese
+	Lang:          "en",    // in English
 	Safe:          "off",   // and NSFW.
 	CodesetInput:  "utf-8", // input charset format.
 	CodesetOutput: "utf-8", // output charset format.
