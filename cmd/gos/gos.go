@@ -13,7 +13,7 @@ func main() {
 		q := strings.Join(os.Args[1:], " ")
 		fmt.Println("Go Searching %s", q)
 
-		client := googlesearch.NewClient()
+		client := gosearch.NewClient()
 		fmt.Print(client.FormatURL(q, 20, 0))
 		if os.Getenv("https_proxy") != "" {
 			fmt.Print("https proxy used")

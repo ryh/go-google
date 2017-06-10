@@ -90,7 +90,7 @@ func (c *Client) SearchPage(query string, start int) (List, error) {
 //
 func (c *Client) FormatURL(query string, count, start int) string {
 	values := make(url.Values)
-	values.Set("q", url.QueryEscape(query))
+	values.Set("q", query)
 	values.Set("safe", c.Safe)
 	values.Set("hl", c.Lang)
 	values.Set("num", strconv.Itoa(count))
