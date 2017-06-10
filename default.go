@@ -1,1 +1,1 @@
-package googlesearch
+package gosearch
