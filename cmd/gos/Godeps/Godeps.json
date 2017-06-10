@@ -1,0 +1,51 @@
+{
+	"ImportPath": "gosearch/cmd/gos",
+	"GoVersion": "go1.8",
+	"GodepVersion": "v79",
+	"Deps": [
+		{
+			"ImportPath": "github.com/PuerkitoBio/goquery",
+			"Comment": "v1.1.0-5-g2dc9389",
+			"Rev": "2dc93891ab3bcc1dbc2cbf9bc6376c37f6e6f289"
+		},
+		{
+			"ImportPath": "github.com/andybalholm/cascadia",
+			"Rev": "349dd0209470eabd9514242c688c403c0926d266"
+		},
+		{
+			"ImportPath": "github.com/fatih/color",
+			"Comment": "v1.5.0-2-g62e9147",
+			"Rev": "62e9147c64a1ed519147b62a56a14e83e2be02c1"
+		},
+		{
+			"ImportPath": "github.com/jessevdk/go-flags",
+			"Comment": "v1-324-g0a28dbe",
+			"Rev": "0a28dbe50f23d8fce6b016975b964cfe7b97a20a"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-colorable",
+			"Rev": "3dac7b4f76f6e17fb39b768b89e3783d16e237fe"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-isatty",
+			"Comment": "v0.0.2",
+			"Rev": "fc9e8d8ef48496124e79ae0df75490096eccf6fe"
+		},
+		{
+			"ImportPath": "github.com/ryh/gosearch",
+			"Rev": "5e5ba07fbc256b2320c287e46d3a10f596fd34aa"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html",
+			"Rev": "1a68b1313cf4ad7778376e82641197b60c02f65c"
+		},
+		{
+			"ImportPath": "golang.org/x/net/html/atom",
+			"Rev": "1a68b1313cf4ad7778376e82641197b60c02f65c"
+		},
+		{
+			"ImportPath": "golang.org/x/sys/unix",
+			"Rev": "0b25a408a50076fbbcae6b7ac0ea5fbb0b085e79"
+		}
+	]
+}
