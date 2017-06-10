@@ -10,3 +10,6 @@ Use ENV `https_proxy` for proxy
 $ go get -u  github.com/ryh/gosearch/cmd/gos
 ```
 use `gos` to search
+
+## Known Issues / TODO
+- [ ] Client may timeout due to bad http connection, without tips & error promotion.
