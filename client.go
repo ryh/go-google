@@ -144,7 +144,7 @@ func (c *Client) Parse(resp *http.Response) (List, error) {
 
 		results = append(results, SearchResult{
 			Name: s.Find(".r").Find("a").Text(),
-			Desc: s.Find(".s").Find(".st").Text(),
+			Desc: s.Find(".st").Text(),
 			Link: link,
 		})
 	})
