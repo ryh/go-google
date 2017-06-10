@@ -1,11 +1,11 @@
-// Package googlesearch launch search queries on google.
-package googlesearch
+// Package gosearch launch search queries on google.
+package gosearch
 
 // Defaults provides default search settings.
 //
 var Defaults = Config{
 	TLD:           "com",   // google.COM
-	Lang:          "en",    // in ENglish
+	Lang:          "zh-CN", // in Chinese
 	Safe:          "off",   // and NSFW.
 	CodesetInput:  "utf-8", // input charset format.
 	CodesetOutput: "utf-8", // output charset format.

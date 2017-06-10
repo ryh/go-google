@@ -1,4 +1,4 @@
-package googlesearch
+package gosearch
 
 import (
 	"github.com/PuerkitoBio/goquery"
